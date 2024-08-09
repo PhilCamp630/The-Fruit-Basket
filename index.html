@@ -8,15 +8,14 @@
 </head>
 <body>
     <h1>Fruit Organizer</h1>
-    <form>
-        <label for="fruit">Enter a fruit:</label>
-        <input type="text" id="fruit" name="fruit" required>
-        <button type="submit">Add Fruit</button>
-    </form>
+
+    <!-- Fruit Bank Section -->
     <div id="fruitBank">
         <h2>Fruit Bank</h2>
-        <output></output>
+        <output id="fruitBankOutput"></output>
     </div>
+
+    <!-- Color Groups Section -->
     <div id="colorGroups">
         <h2>Color Groups</h2>
         <button id="redButton">Red</button>
@@ -27,43 +26,50 @@
         <button id="purpleButton">Purple</button>
         <button id="sortAllColors">Sort All Colors</button>
     </div>
+
+    <!-- Citrus Groups Section -->
     <div id="citrusGroups">
         <h2>Citrus Groups</h2>
         <button id="sortOneCitrus">Sort One Citrus</button>
         <button id="sortAllCitrus">Sort All Citrus</button>
     </div>
-    <div id="red">
-        <h3>Red Fruits</h3>
-        <output></output>
+
+    <!-- Color and Citrus Categories -->
+    <div id="categories">
+        <div id="red">
+            <h3>Red Fruits</h3>
+            <output id="redOutput"></output>
+        </div>
+        <div id="yellow">
+            <h3>Yellow Fruits</h3>
+            <output id="yellowOutput"></output>
+        </div>
+        <div id="green">
+            <h3>Green Fruits</h3>
+            <output id="greenOutput"></output>
+        </div>
+        <div id="blue">
+            <h3>Blue Fruits</h3>
+            <output id="blueOutput"></output>
+        </div>
+        <div id="orange">
+            <h3>Orange Fruits</h3>
+            <output id="orangeOutput"></output>
+        </div>
+        <div id="purple">
+            <h3>Purple Fruits</h3>
+            <output id="purpleOutput"></output>
+        </div>
+        <div id="citrus">
+            <h3>Citrus Fruits</h3>
+            <output id="citrusOutput"></output>
+        </div>
+        <div id="nonCitrus">
+            <h3>Non-Citrus Fruits</h3>
+            <output id="nonCitrusOutput"></output>
+        </div>
     </div>
-    <div id="yellow">
-        <h3>Yellow Fruits</h3>
-        <output></output>
-    </div>
-    <div id="green">
-        <h3>Green Fruits</h3>
-        <output></output>
-    </div>
-    <div id="blue">
-        <h3>Blue Fruits</h3>
-        <output></output>
-    </div>
-    <div id="orange">
-        <h3>Orange Fruits</h3>
-        <output></output>
-    </div>
-    <div id="purple">
-        <h3>Purple Fruits</h3>
-        <output></output>
-    </div>
-    <div id="citrus">
-        <h3>Citrus Fruits</h3>
-        <output></output>
-    </div>
-    <div id="nonCitrus">
-        <h3>Non-Citrus Fruits</h3>
-        <output></output>
-    </div>
+
     <script src="script.js"></script>
 </body>
 </html>
