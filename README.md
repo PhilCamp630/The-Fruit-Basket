@@ -1,5 +1,3 @@
-# The-Fruit-Basket
-
 # Fruit Organizer
 
 ## Description
